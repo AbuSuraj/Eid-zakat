@@ -1,0 +1,215 @@
+h1{
+  font-family: 'Cormorant SC', serif;
+
+/*color: 	#00ffff;*/
+font-size: 52px;
+}
+p{
+    
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    
+   /* color:black;*/
+    margin-bottom: 10px;
+}
+*{
+    margin: 0;
+}
+/*
+.nav-bar{
+    margin-bottom: 140px;
+}*/
+.nav-bar ul{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    /*position: fixed;
+    top:0;*/
+    width: 100%;
+}
+.nav-bar li{
+    float: left;
+    padding-left: 35px;
+ 
+    
+}
+.nav-bar li a{
+    text-align: center;
+ text-decoration: none;
+ display: block;
+ padding: 14px 48px;
+ color: white;
+}
+.nav-bar li a:hover{
+    background-color: rgb(11, 204, 140);
+    cursor: pointer;
+}
+.active{
+    background-color: beige;
+}
+/*donate-now start here*/
+.internal-evil{
+ background-image: url(images/donation6.jpg);
+ background-size:cover;
+ height: 100vh;
+ width:fit-content;
+ background-repeat: no-repeat;
+ color: aliceblue;
+}
+.half-width{
+    padding-top: 10%;
+    text-align: center;
+    width: 50%;
+}
+
+.button{
+    text-decoration: none;
+    padding: 2px 10px;
+    background-color: coral;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* explore more start here*/
+.explore-more{
+    background-color: black;
+}
+.explore-more h1,p{
+    color: #ddd6d6;
+}
+.one_fourth-width{
+width:25%;
+margin: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.survive{
+    padding-top: 5%;
+background-color: whitesmoke;
+}
+.survive h1{
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+}
+.survive p,ul{
+    color: black;
+    padding-left: 110px;
+}
+.survive a{
+    margin: 20px 0 30px 500px;
+}
+.donate-now{
+    background-color: #5F9EA0;
+}
+.donate-heading{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 320px;
+    width: 300px;
+    padding: 20px 35px;
+    background: #ddd6d6;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+
+}
+.pra p{
+    color:#333;
+    font-size: 16px;
+
+   }
+
+   .icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  .photo{
+    background-color: antiquewhite;
+    padding: 10% 5%;
+  }
+  .photo h1{
+    color:indigo;
+    margin-bottom: 10px;
+  
+  }
+.photo-gallary img{
+    max-height: 1%; 
+    width: 30%;
+ 
+}
+.donate-for-zakat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: #e6658e;
+}
+.z-card{
+height: 400px;
+width: 320px;
+padding: 20px 35px;
+background: #ddd6d6;
+border-radius: 20px;
+margin: 15px;
+position: relative;
+overflow: hidden;
+text-align: center;
+}
+.z-card p{
+    
+color:#333;
+}
+.z-card img{
+    width: cover;
+}
+.img-r{
+    width: 120px;
+    height: 200px;
+   /* padding-right: 30px;*/
+}
+footer{
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer h3{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+  }
+  footer p{
+    color: #D9DBE1;
+    font-size:14px;
+  }
