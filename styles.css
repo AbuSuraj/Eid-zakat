@@ -25,8 +25,8 @@ p{
     padding: 0;
     background-color: #333;
     overflow: hidden;
-    /*position: fixed;
-    top:0;*/
+    position: fixed;
+    top:0;
     width: 100%;
 }
 .nav-bar li{
@@ -160,11 +160,22 @@ background-color: whitesmoke;
     margin-bottom: 10px;
   
   }
+  /* here I just add margin into the photo galary section*/
+  .g-i{
+     margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 180px;
+  }
+  .g-i:hover{
+      border:2px solid #5F9EA0
+  }
 .photo-gallary img{
     max-height: 1%; 
     width: 30%;
  
 }
+
 .donate-for-zakat{
     display: flex;
     justify-content: center;
